@@ -1,0 +1,31 @@
+<h2></h2>
+
+<ce-tabs>
+    <div class="tab-title"><h3>General</h3></div>
+    <div class="tab-title"><h3>Questions</h3></div>
+    <div class="tab-title"><h3>Results</h3></div>
+    <div class="tab-panel">
+        <h3>Unique Id</h3>
+        <p class="survey-unique-id"></p>
+
+        <h3>Name</h3>
+        <input class="survey-name" />
+
+        <h3>Logo Url</h3>
+        <ce-digital-asset-url-input class="survey-logo-url"></ce-digital-asset-url-input>
+
+        <h3>Description</h3>
+        <div class="survey-description"></div>
+
+        <ce-button class="save-button">Save</ce-button>
+        <ce-button class="delete-button">Delete</ce-button>
+    </div>
+    <div class="tab-panel">
+        <ce-question-master-detail-embed></ce-question-master-detail-embed>
+    </div>
+    <div class="tab-panel">
+        <ce-survey-result-master-detail-embed></ce-survey-result-master-detail-embed>
+    </div>
+</ce-tabs>
+
+

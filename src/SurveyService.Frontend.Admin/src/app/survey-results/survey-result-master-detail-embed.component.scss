@@ -1,0 +1,19 @@
+@import "../../styles/base/_all";
+
+ce-survey-result-master-detail-embed {
+    display:block;
+	
+    ce-survey-result-view-embed,
+    ce-survey-result-list-embed {
+        float:left;
+        display:inline-block;
+        position:relative;
+        width:50%;
+    }
+}
+
+ce-survey-result-master-detail-embed::after {
+    clear:both;
+    display:block;
+    content:" ";
+}

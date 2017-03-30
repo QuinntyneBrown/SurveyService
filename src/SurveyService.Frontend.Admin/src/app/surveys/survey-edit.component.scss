@@ -1,0 +1,24 @@
+@import "../../styles/base/_all";
+
+ce-survey-edit {
+	@extend .view-card;
+
+	h2 {
+		cursor:pointer;
+	}
+
+    .survey-description {
+        display:block;
+        width:100%;
+        height:345px;
+        margin-bottom:20px;
+    }
+
+    .survey-logo-url {
+        input {
+            width:100%;
+        }
+    }
+}
+
+
